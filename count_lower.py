@@ -1,6 +1,7 @@
 '''Program to
     1.take a string as input from the user
-    2.Count the number of lower case alphabets in entire string and display'''
+    2.Count the number of lower case alphabets in entire string 
+    without built-in methods and display'''
 
 st=input("Enter a string :")
 c=0
