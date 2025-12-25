@@ -4,9 +4,12 @@
     3.define an empty dictionary.
     4.The key will be the count starting from 1.
     5.Value will be a unique list that contains the characters of the string whose appearance equal to key.'''
+
 s=input("Enter a string: ")
 n=len(s)
+
 d={}
+
 for i in range(n):
     d[i]=[]
     for j in s:
@@ -15,4 +18,5 @@ for i in range(n):
                 d[i].append(j)
     if len(d[i])==0:
         del d[i]
+
 print(d)
